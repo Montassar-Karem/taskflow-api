@@ -4,7 +4,7 @@ public record TaskResponse(
         Long id,
         String title,
         Priority priority,
-        String Description,
+        String description,
         boolean done
 ) {
     public static TaskResponse from(Task task) {
